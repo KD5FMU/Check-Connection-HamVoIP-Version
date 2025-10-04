@@ -2,7 +2,6 @@
 This is the Check Connection Script for the HamVoIP Installation
 ![CheckConn Logo](https://github.com/KD5FMU/Check-Connection-Script-File/blob/main/CheckConn1%20.png)
 
-# Check Connection Script File for AllStarLink Version 3
 
 This is a script file for HamVoIP to check for a specific node connection and if it is not present the server will re-connect to it.
 
