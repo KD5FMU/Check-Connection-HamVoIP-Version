@@ -1,6 +1,6 @@
 # Check-Connection-HamVoIP-Version
 This is the Check Connection Script for the HamVoIP Installation
-![CheckConn Logo](https://github.com/KD5FMU/Check-Connection-Script-File/blob/main/CheckConn1%20.png)
+![CheckConn Logo](https://github.com/KD5FMU/Check-Connection-HamVoIP-Version/blob/main/CheckConn%20-%20HAMVOIP.png)
 
 
 This is a script file for HamVoIP to check for a specific node connection and if it is not present the server will re-connect to it.
