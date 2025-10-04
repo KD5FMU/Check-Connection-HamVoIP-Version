@@ -4,7 +4,7 @@
 # Freddie Mac (KD5FMU) — adapted for HamVoIP
 
 # ========= USER SETTINGS =========
-MY_NODE="123456"                   # <-- your node number
+MY_NODE="XXXXXX"                   # <-- your node number
 TARGET_NODES="1999 42518 58453"    # <-- space-separated targets
 SLEEP_BETWEEN=1                    # seconds between attempts
 # =================================
