@@ -19,7 +19,7 @@ Remove the X's on the line that starts with "MY_NODE" and replace them with your
 
 Now the script file needs to be made executable, this can be done with this command:
 ```
-sudo chmod +x check_connection.sh
+sudo chmod +x check_connection_hamvoip.sh
 ```
 
 Now we need to set a crontab job so that your node can periodically run the script file and check to make sure your node is still connected. I like to set mine for every 2 minuets and this can be achieved with this crontab entery. To open this crontab editor go to the command like and execute this command:
@@ -29,4 +29,4 @@ sudo crontab -e
 
 Once in the crontab you can enter this line and then next available space in the file:
 ```
-*/2 * * * * /etc/asterisk/local/check_connection.sh >/dev/null 2>&1
+*/2 * * * * /etc/asterisk/local/check_connection_hamvoip.sh >/dev/null 2>&1
