@@ -15,7 +15,7 @@ Once the file has been downloaded we need to make a few customizations. For exam
 sudo nano check_connection_hv.sh
 ```
 
-Remove the X's on the line that starts with "MY_NODE" and replace them with your node number. Then remove the X's on the line beginning with TARGET_NODE and replace them with the node number you wish to stay connected to. Then save the file (if you are using nano then hit CTL + X and then Y to save and enter to exit). 
+Add your node number on the line that starts with "MY_NODE" and replace them with your node number. Then enter the node numbers of the nodes you want tio stay connected to on the line beginning with TARGET_NODE, if it's more than one number just seperate the nodes with a space. Then save the file (if you are using nano then hit CTL + X and then Y to save and enter to exit). 
 
 Now the script file needs to be made executable, this can be done with this command:
 ```
