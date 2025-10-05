@@ -7,7 +7,7 @@ This is a script file for HamVoIP to check for a specific node connection and if
 
 To get the script file downloaded onto your node just use this command:
 ```
-sudo wget https://raw.githubusercontent.com/KD5FMU/Check-Connection-HamVoIP-Version/refs/heads/main/check_connection_hamvoip.sh
+sudo wget https://raw.githubusercontent.com/KD5FMU/Check-Connection-HamVoIP-Version/refs/heads/main/check_connection_hv.sh
 ```
 
 Once the file has been downloaded we need to make a few customizations. For example we need to edit in your node number and the target node number you want to stay connected to. You can so that by using the following command:
