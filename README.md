@@ -29,8 +29,9 @@ sudo crontab -e
 
 Once in the crontab you can enter this line and then next available space in the file:
 ```
-*/2 * * * * /etc/asterisk/local/check_connection_hv.sh >/dev/null 2>&1
+*/20 * * * * /etc/asterisk/local/check_connection_hv.sh >/dev/null 2>&1
 ```
+This will check for the connection every 20 minuets annd if it's not connected it will attempt to re-connect the desired target node(s)
 Now enjoy the convenience of keeping these nodes connected.
 
 73
