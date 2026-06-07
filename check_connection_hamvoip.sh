@@ -1,7 +1,7 @@
 #!/bin/sh
 # Check/maintain links between MY_NODE and TARGET_NODES on HamVoIP (Arch-based)
 # Skips reconnect if already linked. Add to cron for periodic checks.
-# Freddie Mac (KD5FMU) — adapted for HamVoIP
+# Created by Freddie McGuire (KD5FMU) and OpenAI ChatGPT — adapted for HamVoIP
 
 # ========= USER SETTINGS =========
 MY_NODE="XXXXXX"                   # <-- your node number
